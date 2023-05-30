@@ -73,7 +73,7 @@ def is_number(string):
     return bool(pattern.match(string))
     
 print('------------使用说明------------\n')
-print('1. markdown文件,默认题库与程序放在同一文件夹下，并命名为`.source.md`\n')
+print('1. 题库为markdown文件,默认题库与程序放在同一文件夹下，并命名为`.source.md`\n')
 print('2. ##### 五级标题为题型，有序列表为题号\n')
 print('3. 题号后用`解析: `区分答案部分。!!这个很重要，否则无法导出答案!!\n')
 print('4. LateX公式中不要有空格\n')
