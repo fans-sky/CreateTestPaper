@@ -16,6 +16,7 @@ import random
 import mistune
 from bs4 import BeautifulSoup
 import shutil
+import platform
 #import lxml
 #转中文数字
 numdict = {1:"一",2:"二",3:"三",4:"四",5:"五",6:"六",7:"七",8:"八",9:"九",0:"零"} #个位数的字典
@@ -366,9 +367,10 @@ for imgs in images:
         os.remove(dstimg)
     shutil.copy2(os.getcwd()+'/'+imgs,dstimg)
     #print(img)
+osType = 'open' if platform.system()=='Darwin' else 'start'
 print('试题路径: '+outDir+nameQuestion)
-os.system("open "+outDir)
-os.system("open "+outDir+nameQuestion)
+os.system(osType+' '+outDir)
+os.system(osType+' '+outDir+nameQuestion)
 print('答案路径: '+outDir+nameAnswer)
 #%%
 
