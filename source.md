@@ -1579,7 +1579,7 @@
 
 41. 如图，已知四边形ABCD和CEFG都是正方形，且正方形ABCD的边长为10厘米，那么图中阴影三角形BFD的面积为多少平方厘米？
 
-    <img align="right" src="img/image-20230604124156909.png" alt="image-20230604124156909" style="zoom: 33%;" />
+    <img align="right" src="img/image-20230604124156909.png" style="zoom: 33%;" />
 
 	解析: 参考方法
 
@@ -1630,7 +1630,7 @@
 
 	3）当字母C每2n+1次出现时（n为正整数)，恰好数到的数是多少？（用含n的代数式表示）
 
-	<img src="img/image-20230604135054212.png" alt="image-20230604135054212" style="zoom:50%;" />
+	<img src="img/image-20230604135054212.png" style="zoom:50%;" />
 
 	解析: 参考方法
 
