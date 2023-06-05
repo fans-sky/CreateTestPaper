@@ -868,9 +868,9 @@
 	$$
 	\begin{align*}
 	&解：2x+1=12-3\times(3x-2)\\
-	&2x+1=12-9x+6\\
-	&11x=17\\
-	&x={11\over17}
+	&\quad\quad2x+1=12-9x+6\\
+	&\quad\quad11x=17\\
+	&\quad\quad\;\;x={11\over17}
 	\end{align*}
 	$$
 
@@ -990,13 +990,35 @@
 
 	解析: $50$
 
-20. ${5\over\,{1\times\,6}}+{5\over{6\times\,11}}+{5\over\,{11\times\,16}}+{5\over{16\times\,21}}=$
+20. ${5\over\,{1\times\,6}}+{5\over{6\times\,11}}+{5\over\,{11\times\,16}}+{5\over{16\times\,21}}$
 
 	<img src="img/blank.png" style="zoom:50%;" />
 
 	解析: ${20\over\,21}$
 
-    $1-{1\over\,6}+{11\over\,6\times\,11}-{6\over\,6\times\,11}+{16\over\,11\times\,16}-{11\over\,11\times\,16}+{21\over\,16\times\,21}-{16\over\,16\times\,21}$
+	$$
+	\begin{align*}
+	&解：原式=1-{1\over6}+{11\over\,6\times11}-{6\over6\times11}+{16\over11\times16}-{11\over11\times16}+{21\over16\times21}-{16\over16\times21}\\
+	&\quad\quad\quad\quad=1-{1\over\,6}+{1\over\,6}-{1\over11}+{1\over11}-{1\over16}+{1\over16}-{1\over21}\\
+	&\quad\quad\quad\quad=1-{1\over21}\\
+	&\quad\quad\quad\quad={20\over21}
+	\end{align*}
+	$$
+
+21. ${1\over{1+2}}+{1\over{1+2+3}}+\cdots+{1\over{1+2+3+\cdots+19}}$
+
+	<img src="img/blank.png" style="zoom:50%;" />
+
+	解析: ${9\over10}$
+
+	$$
+	\begin{align*}
+	&解：原式=2\times({1\over2\times3}+{1\over3\times4}+\cdots+{1\over19\times20})\\
+	&\quad\quad\quad\quad=2\times({1\over2}-{1\over20})\\
+	&\quad\quad\quad\quad=2\times{9\over20}\\
+	&\quad\quad\quad\quad={9\over10}
+	\end{align*}
+	$$
 
 ##### 七、应用题
 
