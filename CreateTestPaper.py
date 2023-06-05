@@ -190,6 +190,7 @@ text = text.replace("\,","-,")
 text = text.replace("\\\\","@@")
 '''
 text = text.replace("*","myStar")
+text = text.replace("`","mMks")
 text = text.replace('\\','myEscape')
 text = text.replace("         ","dubspace") #否则丢失格
 #text = text.replace("    ","mytable") #否则丢失格
@@ -205,6 +206,8 @@ def strs_replace(mystr):
     '''
     mystr = mystr.replace("myEscape","\\")
     mystr = mystr.replace("myStar","*")
+    mystr = mystr.replace("mMks","`")
+    
     mystr = mystr.replace("解析: ","")
     mystr = mystr.replace("dubspace","\t\t")
     mystr = mystr.replace("\\\\\n","\\\\")
