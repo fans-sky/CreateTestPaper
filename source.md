@@ -1732,6 +1732,7 @@
     解析: 参考方法
 
     <img align="left" src="img/image-20230604183112605.png" style="zoom:50%;" />
+
     $$
     \begin{align*}
     &解：阴影部分可以分为A、B两部分。\\
